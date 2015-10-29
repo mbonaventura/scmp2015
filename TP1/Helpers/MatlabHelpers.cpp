@@ -112,7 +112,7 @@ void MatlabHelper::WriteToVtk(const Matrix3D& matrix, std::string fileName){
 	uint ny = matrix.shape()[1];
 	uint nz = matrix.shape()[2];
 
-	printf("Matrix Size= %i x %i x %i \n",nx, ny, nz);
+	printf("Writing Matrix with %i values (%i x %i x %i) to %s \n",nx * ny * nz, nx, ny, nz, fileName.data());
 
 	// Write file header
 	fprintf(fid, "# vtk DataFile Version 2.0\n");

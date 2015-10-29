@@ -17,27 +17,34 @@
 #define SIZE_X 181
 #define SIZE_Y 217
 #define SIZE_Z 181
+#define CELL_SIZE 1 // mm. Cells are all equal
 
 //Cm = 1.10'8 celulas/mm 3 es la concentracion maxima de celulas
 #define CANCER_CONCENTRATION_MAX 2.14358881 // celulas/mm 3
+#define PROLIFERATION_RATE 0.107 // ćelulas/dia
+#define RADIOTHERAPY_RATE 0.926386264 // s= e^(−α dose−β dose 2) = e −0,076464 = 0,926386264
 
 // INITIAL VALUES
-#define INITIAL_CANCER_SIZE 3
+#define INITIAL_CANCER_SIZE 3 //mm
 #define INITIAL_CANCER_LOCATION_X 100
 #define INITIAL_CANCER_LOCATION_Y 100
 #define INITIAL_CANCER_LOCATION_Z 130
 
-#define CELL_SIZE 10 // cm. Cells are all equal
+
 
 int main(void) {
 	printf("Starting to parse Cerebro .. \n");
-	Matrix3D disfusionMatrix = CvsParser::parseCvs3DCerebro("Resources/Cerebro.csv", SIZE_X, SIZE_Y, SIZE_Z);
+	Matrix3D disfusionMatrix_total = CvsParser::parseCvs3DCerebro("Resources/Cerebro.csv", SIZE_X, SIZE_Y, SIZE_Z);
 	printf("Finished parsing file  \n");
 
+	typedef boost::multi_array_types::index_range range;
+	Matrix3D::array_view<3>::type disfusionMatrix = disfusionMatrix_total[ boost::indices[range(90, 110)][range(90, 110)][range(120, 140)] ];
+
+	//MatlabHelper::WriteToVtk(disfusionMatrix_total, "/tmp/cerebro_full.vtk");
 	MatlabHelper::WriteToVtk(disfusionMatrix, "/tmp/cerebro.vtk");
 
 
-	CerebroSemiExplicitMethod* method = new CerebroSemiExplicitMethod(0.1, 0.1, disfusionMatrix);
+	CerebroSemiExplicitMethod* method = new CerebroSemiExplicitMethod(0.1, CELL_SIZE, disfusionMatrix, CANCER_CONCENTRATION_MAX, PROLIFERATION_RATE, RADIOTHERAPY_RATE);
 
 	/** create initial conditions from TP:
 	 * El dominio del problema es un cubo donde est ́a alojada la representaci ́on digital de un cerebro humano.
@@ -46,9 +53,9 @@ int main(void) {
 	 * C(x 0 , y 0 , z 0 , 0) = Cm/2.
 	 */
 	// initialize all 0s
-	method->setInitialCondition(INITIAL_CANCER_SIZE, CANCER_CONCENTRATION_MAX, INITIAL_CANCER_LOCATION_X, INITIAL_CANCER_LOCATION_Y, INITIAL_CANCER_LOCATION_Z);
+	method->setInitialCondition(INITIAL_CANCER_SIZE, 10 /*INITIAL_CANCER_LOCATION_X*/ , 10 /*INITIAL_CANCER_LOCATION_Y*/, 10 /*INITIAL_CANCER_LOCATION_Z*/);
 
-
+	method->start(20);
 	//printf("Cerebro has %lu",  cerebro.shape());
 
 	delete method; // just in case
