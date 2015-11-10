@@ -1,12 +1,12 @@
 /*
- * SemiExplicitMethod.h
+ * AbstractMethod.h
  *
  *  Created on: Oct 20, 2015
  *      Author: matiasb
  */
 
-#ifndef SemiExplicitMethod_H_
-#define SemiExplicitMethod_H_
+#ifndef ICerebroMethod_H_
+#define ICerebroMethod_H_
 
 #include "Helpers/CvsParser.h"
 #include "Helpers/MatlabHelpers.h"
@@ -14,8 +14,8 @@
 #include <math.h>       /* log */
 
 
-class CerebroSemiExplicitMethod {
-private:
+class ICerebroMethod {
+protected:
 	// Parameters
 	double deltaT; // dias
 	double deltaSpace; //mm
@@ -30,7 +30,7 @@ private:
 
 public:
 
-	CerebroSemiExplicitMethod(double deltaT /* dias*/ , double deltaSpace /* mm */, Matrix3D disfusion /*mm2/dia*/,
+	ICerebroMethod(double deltaT /* dias*/ , double deltaSpace /* mm */, Matrix3D disfusion /*mm2/dia*/,
 								double maxConcentration /*celulas/mm 3 */, double proliferationRate /*celulas/dia*/, double radiotherapyRate /* s=celulas/dia */) :
 		deltaT(deltaT),
 		deltaSpace(deltaSpace),
@@ -38,25 +38,20 @@ public:
 		maxConcentration(maxConcentration),
 		proliferationRate(proliferationRate),
 		radiotherapyRate(radiotherapyRate){
-
-		if(this->getDiscretizationFactor() > 0.5){
-			printf("Invalid deltT / deltaX 2 for this method must be < 0.5. Configured at  %f \n", this->getDiscretizationFactor());
-			throw new std::runtime_error("Invalid deltT / deltaX 2 for this method must be < 0.5.\n");
-		}
-
 	}
 
-	virtual ~CerebroSemiExplicitMethod() {};
+	virtual ~ICerebroMethod() {};
 
 	void start(double endTime /*days*/);
 	void setInitialCondition(uint initialCancerSize /* cm3 */, uint xCancerLocation, uint yCancerLocation, uint zCancerLocation);
-private:
+protected:
 	Matrix3D& getConcentration() { return *this->concentration; }
-	std::shared_ptr<Matrix3D> ResolveItarativeStep();
-
-
 	double getDiscretizationFactor() { return this->deltaT / std::pow(this->deltaSpace,2); }
 
+	/**
+	 * This method resolves the discretization function in each iteration
+	 */
+	virtual std::shared_ptr<Matrix3D> ResolveItarativeStep() =0;
 
 };
 

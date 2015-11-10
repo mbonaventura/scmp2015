@@ -23,7 +23,8 @@
 
 #include "CvsParser.h" // Matrix3D
 
-
+#define BASE_PATH "/home/matiasb"
+//#define BASE_PATH ""
 
 class MatlabHelper {
 	#define BUFSIZE 256

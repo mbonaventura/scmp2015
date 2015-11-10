@@ -100,6 +100,9 @@ void MatlabHelper::WriteMatrixToVtk(const std::vector<std::vector<double> >& mat
 }
 
 void MatlabHelper::WriteToVtk(const Matrix3D& matrix, std::string fileName){
+
+	fileName = std::string(BASE_PATH) + fileName;
+
 	FILE * fid = fopen(fileName.data(), "wt");
 
 	if (fid == NULL) {
