@@ -2,11 +2,11 @@ Simulation time:
 
 ----------------
 
-Miliseconds: 726.722
+Miliseconds: 3181.03
 
 
 
-CPU time per transition: 0.00210565
+CPU time per transition: 0.00231201
 
 -----------------------
 
@@ -16,21 +16,2009 @@ Simulation output:
 
 ------------------
 
-Variable u[100] changes: 989
+Variable u[1] changes: 1
 
-Variable u[300] changes: 559
+Variable u[2] changes: 2064
 
-Variable u[500] changes: 225
+Variable u[3] changes: 2061
 
-Variable u[700] changes: 1
+Variable u[4] changes: 1489
 
-Variable u[900] changes: 1
+Variable u[5] changes: 1876
+
+Variable u[6] changes: 1926
+
+Variable u[7] changes: 1858
+
+Variable u[8] changes: 1962
+
+Variable u[9] changes: 2035
+
+Variable u[10] changes: 2037
+
+Variable u[11] changes: 2015
+
+Variable u[12] changes: 2050
+
+Variable u[13] changes: 2039
+
+Variable u[14] changes: 2061
+
+Variable u[15] changes: 2068
+
+Variable u[16] changes: 2088
+
+Variable u[17] changes: 2107
+
+Variable u[18] changes: 2119
+
+Variable u[19] changes: 2133
+
+Variable u[20] changes: 2149
+
+Variable u[21] changes: 2169
+
+Variable u[22] changes: 2108
+
+Variable u[23] changes: 2124
+
+Variable u[24] changes: 2197
+
+Variable u[25] changes: 2135
+
+Variable u[26] changes: 2171
+
+Variable u[27] changes: 2204
+
+Variable u[28] changes: 2163
+
+Variable u[29] changes: 2166
+
+Variable u[30] changes: 2170
+
+Variable u[31] changes: 2207
+
+Variable u[32] changes: 2160
+
+Variable u[33] changes: 2218
+
+Variable u[34] changes: 2180
+
+Variable u[35] changes: 2176
+
+Variable u[36] changes: 2176
+
+Variable u[37] changes: 2156
+
+Variable u[38] changes: 2184
+
+Variable u[39] changes: 2175
+
+Variable u[40] changes: 2198
+
+Variable u[41] changes: 2174
+
+Variable u[42] changes: 2189
+
+Variable u[43] changes: 2164
+
+Variable u[44] changes: 2191
+
+Variable u[45] changes: 2178
+
+Variable u[46] changes: 2183
+
+Variable u[47] changes: 2169
+
+Variable u[48] changes: 2189
+
+Variable u[49] changes: 2181
+
+Variable u[50] changes: 2190
+
+Variable u[51] changes: 2159
+
+Variable u[52] changes: 2157
+
+Variable u[53] changes: 2166
+
+Variable u[54] changes: 2149
+
+Variable u[55] changes: 2184
+
+Variable u[56] changes: 2197
+
+Variable u[57] changes: 2139
+
+Variable u[58] changes: 2175
+
+Variable u[59] changes: 2203
+
+Variable u[60] changes: 2196
+
+Variable u[61] changes: 2177
+
+Variable u[62] changes: 2193
+
+Variable u[63] changes: 2176
+
+Variable u[64] changes: 2182
+
+Variable u[65] changes: 2166
+
+Variable u[66] changes: 2199
+
+Variable u[67] changes: 2186
+
+Variable u[68] changes: 2185
+
+Variable u[69] changes: 2192
+
+Variable u[70] changes: 2202
+
+Variable u[71] changes: 2156
+
+Variable u[72] changes: 2190
+
+Variable u[73] changes: 2178
+
+Variable u[74] changes: 2199
+
+Variable u[75] changes: 2210
+
+Variable u[76] changes: 2221
+
+Variable u[77] changes: 2190
+
+Variable u[78] changes: 2232
+
+Variable u[79] changes: 2206
+
+Variable u[80] changes: 2186
+
+Variable u[81] changes: 2218
+
+Variable u[82] changes: 2204
+
+Variable u[83] changes: 2219
+
+Variable u[84] changes: 2215
+
+Variable u[85] changes: 2190
+
+Variable u[86] changes: 2201
+
+Variable u[87] changes: 2162
+
+Variable u[88] changes: 2177
+
+Variable u[89] changes: 2187
+
+Variable u[90] changes: 2171
+
+Variable u[91] changes: 2176
+
+Variable u[92] changes: 2189
+
+Variable u[93] changes: 2185
+
+Variable u[94] changes: 2184
+
+Variable u[95] changes: 2158
+
+Variable u[96] changes: 2176
+
+Variable u[97] changes: 2193
+
+Variable u[98] changes: 2132
+
+Variable u[99] changes: 2177
+
+Variable u[100] changes: 2165
+
+Variable u[101] changes: 2156
+
+Variable u[102] changes: 2138
+
+Variable u[103] changes: 2163
+
+Variable u[104] changes: 2174
+
+Variable u[105] changes: 2166
+
+Variable u[106] changes: 2174
+
+Variable u[107] changes: 2181
+
+Variable u[108] changes: 2161
+
+Variable u[109] changes: 2180
+
+Variable u[110] changes: 2158
+
+Variable u[111] changes: 2162
+
+Variable u[112] changes: 2173
+
+Variable u[113] changes: 2161
+
+Variable u[114] changes: 2169
+
+Variable u[115] changes: 2186
+
+Variable u[116] changes: 2164
+
+Variable u[117] changes: 2158
+
+Variable u[118] changes: 2172
+
+Variable u[119] changes: 2158
+
+Variable u[120] changes: 2148
+
+Variable u[121] changes: 2151
+
+Variable u[122] changes: 2139
+
+Variable u[123] changes: 2117
+
+Variable u[124] changes: 2164
+
+Variable u[125] changes: 2153
+
+Variable u[126] changes: 2136
+
+Variable u[127] changes: 2137
+
+Variable u[128] changes: 2137
+
+Variable u[129] changes: 2141
+
+Variable u[130] changes: 2156
+
+Variable u[131] changes: 2134
+
+Variable u[132] changes: 2148
+
+Variable u[133] changes: 2156
+
+Variable u[134] changes: 2147
+
+Variable u[135] changes: 2151
+
+Variable u[136] changes: 2139
+
+Variable u[137] changes: 2132
+
+Variable u[138] changes: 2135
+
+Variable u[139] changes: 2139
+
+Variable u[140] changes: 2130
+
+Variable u[141] changes: 2115
+
+Variable u[142] changes: 2120
+
+Variable u[143] changes: 2114
+
+Variable u[144] changes: 2102
+
+Variable u[145] changes: 2118
+
+Variable u[146] changes: 2099
+
+Variable u[147] changes: 2099
+
+Variable u[148] changes: 2106
+
+Variable u[149] changes: 2094
+
+Variable u[150] changes: 2094
+
+Variable u[151] changes: 2117
+
+Variable u[152] changes: 2094
+
+Variable u[153] changes: 2077
+
+Variable u[154] changes: 2103
+
+Variable u[155] changes: 2097
+
+Variable u[156] changes: 2107
+
+Variable u[157] changes: 2102
+
+Variable u[158] changes: 2089
+
+Variable u[159] changes: 2101
+
+Variable u[160] changes: 2089
+
+Variable u[161] changes: 2069
+
+Variable u[162] changes: 2090
+
+Variable u[163] changes: 2091
+
+Variable u[164] changes: 2077
+
+Variable u[165] changes: 2075
+
+Variable u[166] changes: 2070
+
+Variable u[167] changes: 2088
+
+Variable u[168] changes: 2081
+
+Variable u[169] changes: 2081
+
+Variable u[170] changes: 2083
+
+Variable u[171] changes: 2079
+
+Variable u[172] changes: 2071
+
+Variable u[173] changes: 2075
+
+Variable u[174] changes: 2062
+
+Variable u[175] changes: 2073
+
+Variable u[176] changes: 2070
+
+Variable u[177] changes: 2062
+
+Variable u[178] changes: 2067
+
+Variable u[179] changes: 2070
+
+Variable u[180] changes: 2054
+
+Variable u[181] changes: 2065
+
+Variable u[182] changes: 2062
+
+Variable u[183] changes: 2072
+
+Variable u[184] changes: 2055
+
+Variable u[185] changes: 2058
+
+Variable u[186] changes: 2054
+
+Variable u[187] changes: 2057
+
+Variable u[188] changes: 2054
+
+Variable u[189] changes: 2046
+
+Variable u[190] changes: 2055
+
+Variable u[191] changes: 2038
+
+Variable u[192] changes: 2040
+
+Variable u[193] changes: 2040
+
+Variable u[194] changes: 2035
+
+Variable u[195] changes: 2040
+
+Variable u[196] changes: 2042
+
+Variable u[197] changes: 2040
+
+Variable u[198] changes: 2026
+
+Variable u[199] changes: 2041
+
+Variable u[200] changes: 2027
+
+Variable u[201] changes: 2028
+
+Variable u[202] changes: 2021
+
+Variable u[203] changes: 2018
+
+Variable u[204] changes: 2006
+
+Variable u[205] changes: 2005
+
+Variable u[206] changes: 2001
+
+Variable u[207] changes: 1999
+
+Variable u[208] changes: 1995
+
+Variable u[209] changes: 1999
+
+Variable u[210] changes: 1994
+
+Variable u[211] changes: 1985
+
+Variable u[212] changes: 1969
+
+Variable u[213] changes: 1969
+
+Variable u[214] changes: 1971
+
+Variable u[215] changes: 1978
+
+Variable u[216] changes: 1973
+
+Variable u[217] changes: 1970
+
+Variable u[218] changes: 1972
+
+Variable u[219] changes: 1967
+
+Variable u[220] changes: 1971
+
+Variable u[221] changes: 1973
+
+Variable u[222] changes: 1967
+
+Variable u[223] changes: 1960
+
+Variable u[224] changes: 1970
+
+Variable u[225] changes: 1973
+
+Variable u[226] changes: 1969
+
+Variable u[227] changes: 1977
+
+Variable u[228] changes: 1960
+
+Variable u[229] changes: 1956
+
+Variable u[230] changes: 1968
+
+Variable u[231] changes: 1951
+
+Variable u[232] changes: 1961
+
+Variable u[233] changes: 1956
+
+Variable u[234] changes: 1947
+
+Variable u[235] changes: 1941
+
+Variable u[236] changes: 1935
+
+Variable u[237] changes: 1942
+
+Variable u[238] changes: 1934
+
+Variable u[239] changes: 1949
+
+Variable u[240] changes: 1935
+
+Variable u[241] changes: 1935
+
+Variable u[242] changes: 1917
+
+Variable u[243] changes: 1919
+
+Variable u[244] changes: 1901
+
+Variable u[245] changes: 1923
+
+Variable u[246] changes: 1917
+
+Variable u[247] changes: 1913
+
+Variable u[248] changes: 1904
+
+Variable u[249] changes: 1907
+
+Variable u[250] changes: 1902
+
+Variable u[251] changes: 1898
+
+Variable u[252] changes: 1901
+
+Variable u[253] changes: 1910
+
+Variable u[254] changes: 1894
+
+Variable u[255] changes: 1903
+
+Variable u[256] changes: 1905
+
+Variable u[257] changes: 1917
+
+Variable u[258] changes: 1912
+
+Variable u[259] changes: 1896
+
+Variable u[260] changes: 1904
+
+Variable u[261] changes: 1904
+
+Variable u[262] changes: 1897
+
+Variable u[263] changes: 1881
+
+Variable u[264] changes: 1877
+
+Variable u[265] changes: 1888
+
+Variable u[266] changes: 1866
+
+Variable u[267] changes: 1867
+
+Variable u[268] changes: 1868
+
+Variable u[269] changes: 1829
+
+Variable u[270] changes: 1858
+
+Variable u[271] changes: 1852
+
+Variable u[272] changes: 1842
+
+Variable u[273] changes: 1856
+
+Variable u[274] changes: 1850
+
+Variable u[275] changes: 1857
+
+Variable u[276] changes: 1869
+
+Variable u[277] changes: 1856
+
+Variable u[278] changes: 1832
+
+Variable u[279] changes: 1848
+
+Variable u[280] changes: 1832
+
+Variable u[281] changes: 1844
+
+Variable u[282] changes: 1858
+
+Variable u[283] changes: 1843
+
+Variable u[284] changes: 1840
+
+Variable u[285] changes: 1834
+
+Variable u[286] changes: 1840
+
+Variable u[287] changes: 1811
+
+Variable u[288] changes: 1825
+
+Variable u[289] changes: 1832
+
+Variable u[290] changes: 1795
+
+Variable u[291] changes: 1814
+
+Variable u[292] changes: 1823
+
+Variable u[293] changes: 1794
+
+Variable u[294] changes: 1812
+
+Variable u[295] changes: 1805
+
+Variable u[296] changes: 1809
+
+Variable u[297] changes: 1811
+
+Variable u[298] changes: 1813
+
+Variable u[299] changes: 1781
+
+Variable u[300] changes: 1807
+
+Variable u[301] changes: 1795
+
+Variable u[302] changes: 1783
+
+Variable u[303] changes: 1795
+
+Variable u[304] changes: 1782
+
+Variable u[305] changes: 1778
+
+Variable u[306] changes: 1781
+
+Variable u[307] changes: 1780
+
+Variable u[308] changes: 1776
+
+Variable u[309] changes: 1778
+
+Variable u[310] changes: 1782
+
+Variable u[311] changes: 1780
+
+Variable u[312] changes: 1778
+
+Variable u[313] changes: 1762
+
+Variable u[314] changes: 1768
+
+Variable u[315] changes: 1775
+
+Variable u[316] changes: 1767
+
+Variable u[317] changes: 1769
+
+Variable u[318] changes: 1771
+
+Variable u[319] changes: 1759
+
+Variable u[320] changes: 1748
+
+Variable u[321] changes: 1759
+
+Variable u[322] changes: 1752
+
+Variable u[323] changes: 1749
+
+Variable u[324] changes: 1765
+
+Variable u[325] changes: 1758
+
+Variable u[326] changes: 1759
+
+Variable u[327] changes: 1757
+
+Variable u[328] changes: 1752
+
+Variable u[329] changes: 1746
+
+Variable u[330] changes: 1750
+
+Variable u[331] changes: 1744
+
+Variable u[332] changes: 1726
+
+Variable u[333] changes: 1730
+
+Variable u[334] changes: 1713
+
+Variable u[335] changes: 1724
+
+Variable u[336] changes: 1723
+
+Variable u[337] changes: 1713
+
+Variable u[338] changes: 1710
+
+Variable u[339] changes: 1712
+
+Variable u[340] changes: 1703
+
+Variable u[341] changes: 1714
+
+Variable u[342] changes: 1722
+
+Variable u[343] changes: 1709
+
+Variable u[344] changes: 1703
+
+Variable u[345] changes: 1705
+
+Variable u[346] changes: 1714
+
+Variable u[347] changes: 1704
+
+Variable u[348] changes: 1702
+
+Variable u[349] changes: 1689
+
+Variable u[350] changes: 1678
+
+Variable u[351] changes: 1686
+
+Variable u[352] changes: 1686
+
+Variable u[353] changes: 1697
+
+Variable u[354] changes: 1696
+
+Variable u[355] changes: 1698
+
+Variable u[356] changes: 1684
+
+Variable u[357] changes: 1692
+
+Variable u[358] changes: 1691
+
+Variable u[359] changes: 1679
+
+Variable u[360] changes: 1686
+
+Variable u[361] changes: 1686
+
+Variable u[362] changes: 1678
+
+Variable u[363] changes: 1671
+
+Variable u[364] changes: 1675
+
+Variable u[365] changes: 1675
+
+Variable u[366] changes: 1670
+
+Variable u[367] changes: 1669
+
+Variable u[368] changes: 1670
+
+Variable u[369] changes: 1655
+
+Variable u[370] changes: 1665
+
+Variable u[371] changes: 1655
+
+Variable u[372] changes: 1668
+
+Variable u[373] changes: 1659
+
+Variable u[374] changes: 1650
+
+Variable u[375] changes: 1650
+
+Variable u[376] changes: 1653
+
+Variable u[377] changes: 1640
+
+Variable u[378] changes: 1640
+
+Variable u[379] changes: 1632
+
+Variable u[380] changes: 1609
+
+Variable u[381] changes: 1624
+
+Variable u[382] changes: 1629
+
+Variable u[383] changes: 1614
+
+Variable u[384] changes: 1628
+
+Variable u[385] changes: 1623
+
+Variable u[386] changes: 1606
+
+Variable u[387] changes: 1620
+
+Variable u[388] changes: 1615
+
+Variable u[389] changes: 1627
+
+Variable u[390] changes: 1611
+
+Variable u[391] changes: 1606
+
+Variable u[392] changes: 1597
+
+Variable u[393] changes: 1619
+
+Variable u[394] changes: 1603
+
+Variable u[395] changes: 1612
+
+Variable u[396] changes: 1616
+
+Variable u[397] changes: 1616
+
+Variable u[398] changes: 1612
+
+Variable u[399] changes: 1610
+
+Variable u[400] changes: 1607
+
+Variable u[401] changes: 1603
+
+Variable u[402] changes: 1604
+
+Variable u[403] changes: 1601
+
+Variable u[404] changes: 1594
+
+Variable u[405] changes: 1595
+
+Variable u[406] changes: 1582
+
+Variable u[407] changes: 1585
+
+Variable u[408] changes: 1571
+
+Variable u[409] changes: 1572
+
+Variable u[410] changes: 1568
+
+Variable u[411] changes: 1575
+
+Variable u[412] changes: 1563
+
+Variable u[413] changes: 1572
+
+Variable u[414] changes: 1573
+
+Variable u[415] changes: 1569
+
+Variable u[416] changes: 1563
+
+Variable u[417] changes: 1573
+
+Variable u[418] changes: 1566
+
+Variable u[419] changes: 1569
+
+Variable u[420] changes: 1562
+
+Variable u[421] changes: 1563
+
+Variable u[422] changes: 1560
+
+Variable u[423] changes: 1554
+
+Variable u[424] changes: 1550
+
+Variable u[425] changes: 1546
+
+Variable u[426] changes: 1542
+
+Variable u[427] changes: 1539
+
+Variable u[428] changes: 1531
+
+Variable u[429] changes: 1539
+
+Variable u[430] changes: 1536
+
+Variable u[431] changes: 1538
+
+Variable u[432] changes: 1541
+
+Variable u[433] changes: 1536
+
+Variable u[434] changes: 1514
+
+Variable u[435] changes: 1525
+
+Variable u[436] changes: 1507
+
+Variable u[437] changes: 1522
+
+Variable u[438] changes: 1511
+
+Variable u[439] changes: 1512
+
+Variable u[440] changes: 1503
+
+Variable u[441] changes: 1506
+
+Variable u[442] changes: 1505
+
+Variable u[443] changes: 1505
+
+Variable u[444] changes: 1504
+
+Variable u[445] changes: 1514
+
+Variable u[446] changes: 1498
+
+Variable u[447] changes: 1493
+
+Variable u[448] changes: 1486
+
+Variable u[449] changes: 1481
+
+Variable u[450] changes: 1479
+
+Variable u[451] changes: 1487
+
+Variable u[452] changes: 1487
+
+Variable u[453] changes: 1491
+
+Variable u[454] changes: 1480
+
+Variable u[455] changes: 1485
+
+Variable u[456] changes: 1488
+
+Variable u[457] changes: 1482
+
+Variable u[458] changes: 1487
+
+Variable u[459] changes: 1488
+
+Variable u[460] changes: 1488
+
+Variable u[461] changes: 1471
+
+Variable u[462] changes: 1476
+
+Variable u[463] changes: 1461
+
+Variable u[464] changes: 1468
+
+Variable u[465] changes: 1460
+
+Variable u[466] changes: 1470
+
+Variable u[467] changes: 1471
+
+Variable u[468] changes: 1445
+
+Variable u[469] changes: 1464
+
+Variable u[470] changes: 1436
+
+Variable u[471] changes: 1445
+
+Variable u[472] changes: 1450
+
+Variable u[473] changes: 1442
+
+Variable u[474] changes: 1443
+
+Variable u[475] changes: 1441
+
+Variable u[476] changes: 1431
+
+Variable u[477] changes: 1417
+
+Variable u[478] changes: 1437
+
+Variable u[479] changes: 1426
+
+Variable u[480] changes: 1412
+
+Variable u[481] changes: 1430
+
+Variable u[482] changes: 1428
+
+Variable u[483] changes: 1426
+
+Variable u[484] changes: 1430
+
+Variable u[485] changes: 1428
+
+Variable u[486] changes: 1416
+
+Variable u[487] changes: 1419
+
+Variable u[488] changes: 1426
+
+Variable u[489] changes: 1411
+
+Variable u[490] changes: 1422
+
+Variable u[491] changes: 1421
+
+Variable u[492] changes: 1417
+
+Variable u[493] changes: 1420
+
+Variable u[494] changes: 1407
+
+Variable u[495] changes: 1408
+
+Variable u[496] changes: 1406
+
+Variable u[497] changes: 1395
+
+Variable u[498] changes: 1405
+
+Variable u[499] changes: 1404
+
+Variable u[500] changes: 1387
+
+Variable u[501] changes: 1403
+
+Variable u[502] changes: 1399
+
+Variable u[503] changes: 1387
+
+Variable u[504] changes: 1388
+
+Variable u[505] changes: 1396
+
+Variable u[506] changes: 1390
+
+Variable u[507] changes: 1391
+
+Variable u[508] changes: 1386
+
+Variable u[509] changes: 1379
+
+Variable u[510] changes: 1382
+
+Variable u[511] changes: 1384
+
+Variable u[512] changes: 1374
+
+Variable u[513] changes: 1366
+
+Variable u[514] changes: 1377
+
+Variable u[515] changes: 1368
+
+Variable u[516] changes: 1374
+
+Variable u[517] changes: 1365
+
+Variable u[518] changes: 1367
+
+Variable u[519] changes: 1368
+
+Variable u[520] changes: 1360
+
+Variable u[521] changes: 1355
+
+Variable u[522] changes: 1356
+
+Variable u[523] changes: 1348
+
+Variable u[524] changes: 1354
+
+Variable u[525] changes: 1348
+
+Variable u[526] changes: 1344
+
+Variable u[527] changes: 1351
+
+Variable u[528] changes: 1354
+
+Variable u[529] changes: 1351
+
+Variable u[530] changes: 1352
+
+Variable u[531] changes: 1341
+
+Variable u[532] changes: 1331
+
+Variable u[533] changes: 1340
+
+Variable u[534] changes: 1340
+
+Variable u[535] changes: 1321
+
+Variable u[536] changes: 1320
+
+Variable u[537] changes: 1321
+
+Variable u[538] changes: 1312
+
+Variable u[539] changes: 1321
+
+Variable u[540] changes: 1318
+
+Variable u[541] changes: 1323
+
+Variable u[542] changes: 1319
+
+Variable u[543] changes: 1317
+
+Variable u[544] changes: 1303
+
+Variable u[545] changes: 1303
+
+Variable u[546] changes: 1307
+
+Variable u[547] changes: 1304
+
+Variable u[548] changes: 1302
+
+Variable u[549] changes: 1305
+
+Variable u[550] changes: 1294
+
+Variable u[551] changes: 1292
+
+Variable u[552] changes: 1291
+
+Variable u[553] changes: 1286
+
+Variable u[554] changes: 1292
+
+Variable u[555] changes: 1285
+
+Variable u[556] changes: 1281
+
+Variable u[557] changes: 1280
+
+Variable u[558] changes: 1279
+
+Variable u[559] changes: 1280
+
+Variable u[560] changes: 1277
+
+Variable u[561] changes: 1282
+
+Variable u[562] changes: 1281
+
+Variable u[563] changes: 1276
+
+Variable u[564] changes: 1273
+
+Variable u[565] changes: 1269
+
+Variable u[566] changes: 1269
+
+Variable u[567] changes: 1270
+
+Variable u[568] changes: 1238
+
+Variable u[569] changes: 1256
+
+Variable u[570] changes: 1256
+
+Variable u[571] changes: 1250
+
+Variable u[572] changes: 1258
+
+Variable u[573] changes: 1247
+
+Variable u[574] changes: 1242
+
+Variable u[575] changes: 1239
+
+Variable u[576] changes: 1244
+
+Variable u[577] changes: 1241
+
+Variable u[578] changes: 1240
+
+Variable u[579] changes: 1241
+
+Variable u[580] changes: 1233
+
+Variable u[581] changes: 1232
+
+Variable u[582] changes: 1240
+
+Variable u[583] changes: 1236
+
+Variable u[584] changes: 1236
+
+Variable u[585] changes: 1235
+
+Variable u[586] changes: 1234
+
+Variable u[587] changes: 1227
+
+Variable u[588] changes: 1219
+
+Variable u[589] changes: 1215
+
+Variable u[590] changes: 1210
+
+Variable u[591] changes: 1211
+
+Variable u[592] changes: 1193
+
+Variable u[593] changes: 1204
+
+Variable u[594] changes: 1205
+
+Variable u[595] changes: 1197
+
+Variable u[596] changes: 1202
+
+Variable u[597] changes: 1200
+
+Variable u[598] changes: 1200
+
+Variable u[599] changes: 1194
+
+Variable u[600] changes: 1199
+
+Variable u[601] changes: 1199
+
+Variable u[602] changes: 1197
+
+Variable u[603] changes: 1187
+
+Variable u[604] changes: 1186
+
+Variable u[605] changes: 1188
+
+Variable u[606] changes: 1188
+
+Variable u[607] changes: 1185
+
+Variable u[608] changes: 1186
+
+Variable u[609] changes: 1185
+
+Variable u[610] changes: 1176
+
+Variable u[611] changes: 1182
+
+Variable u[612] changes: 1178
+
+Variable u[613] changes: 1175
+
+Variable u[614] changes: 1172
+
+Variable u[615] changes: 1170
+
+Variable u[616] changes: 1168
+
+Variable u[617] changes: 1157
+
+Variable u[618] changes: 1157
+
+Variable u[619] changes: 1157
+
+Variable u[620] changes: 1158
+
+Variable u[621] changes: 1153
+
+Variable u[622] changes: 1149
+
+Variable u[623] changes: 1139
+
+Variable u[624] changes: 1143
+
+Variable u[625] changes: 1140
+
+Variable u[626] changes: 1147
+
+Variable u[627] changes: 1141
+
+Variable u[628] changes: 1140
+
+Variable u[629] changes: 1136
+
+Variable u[630] changes: 1135
+
+Variable u[631] changes: 1132
+
+Variable u[632] changes: 1133
+
+Variable u[633] changes: 1138
+
+Variable u[634] changes: 1132
+
+Variable u[635] changes: 1131
+
+Variable u[636] changes: 1115
+
+Variable u[637] changes: 1121
+
+Variable u[638] changes: 1108
+
+Variable u[639] changes: 1094
+
+Variable u[640] changes: 1107
+
+Variable u[641] changes: 1110
+
+Variable u[642] changes: 1107
+
+Variable u[643] changes: 1112
+
+Variable u[644] changes: 1115
+
+Variable u[645] changes: 1112
+
+Variable u[646] changes: 1112
+
+Variable u[647] changes: 1105
+
+Variable u[648] changes: 1094
+
+Variable u[649] changes: 1108
+
+Variable u[650] changes: 1103
+
+Variable u[651] changes: 1097
+
+Variable u[652] changes: 1103
+
+Variable u[653] changes: 1098
+
+Variable u[654] changes: 1101
+
+Variable u[655] changes: 1095
+
+Variable u[656] changes: 1093
+
+Variable u[657] changes: 1086
+
+Variable u[658] changes: 1088
+
+Variable u[659] changes: 1082
+
+Variable u[660] changes: 1085
+
+Variable u[661] changes: 1086
+
+Variable u[662] changes: 1079
+
+Variable u[663] changes: 1080
+
+Variable u[664] changes: 1082
+
+Variable u[665] changes: 1082
+
+Variable u[666] changes: 1075
+
+Variable u[667] changes: 1067
+
+Variable u[668] changes: 1048
+
+Variable u[669] changes: 1060
+
+Variable u[670] changes: 1039
+
+Variable u[671] changes: 1050
+
+Variable u[672] changes: 1058
+
+Variable u[673] changes: 1050
+
+Variable u[674] changes: 1055
+
+Variable u[675] changes: 1055
+
+Variable u[676] changes: 1051
+
+Variable u[677] changes: 1043
+
+Variable u[678] changes: 1043
+
+Variable u[679] changes: 1045
+
+Variable u[680] changes: 1047
+
+Variable u[681] changes: 1047
+
+Variable u[682] changes: 1039
+
+Variable u[683] changes: 1035
+
+Variable u[684] changes: 1028
+
+Variable u[685] changes: 1034
+
+Variable u[686] changes: 1034
+
+Variable u[687] changes: 1030
+
+Variable u[688] changes: 1031
+
+Variable u[689] changes: 1029
+
+Variable u[690] changes: 1022
+
+Variable u[691] changes: 1019
+
+Variable u[692] changes: 1021
+
+Variable u[693] changes: 1014
+
+Variable u[694] changes: 1014
+
+Variable u[695] changes: 1013
+
+Variable u[696] changes: 1012
+
+Variable u[697] changes: 1004
+
+Variable u[698] changes: 1006
+
+Variable u[699] changes: 1005
+
+Variable u[700] changes: 984
+
+Variable u[701] changes: 992
+
+Variable u[702] changes: 995
+
+Variable u[703] changes: 998
+
+Variable u[704] changes: 998
+
+Variable u[705] changes: 993
+
+Variable u[706] changes: 993
+
+Variable u[707] changes: 983
+
+Variable u[708] changes: 975
+
+Variable u[709] changes: 983
+
+Variable u[710] changes: 979
+
+Variable u[711] changes: 974
+
+Variable u[712] changes: 966
+
+Variable u[713] changes: 975
+
+Variable u[714] changes: 965
+
+Variable u[715] changes: 969
+
+Variable u[716] changes: 971
+
+Variable u[717] changes: 966
+
+Variable u[718] changes: 963
+
+Variable u[719] changes: 959
+
+Variable u[720] changes: 965
+
+Variable u[721] changes: 960
+
+Variable u[722] changes: 956
+
+Variable u[723] changes: 956
+
+Variable u[724] changes: 954
+
+Variable u[725] changes: 946
+
+Variable u[726] changes: 952
+
+Variable u[727] changes: 951
+
+Variable u[728] changes: 942
+
+Variable u[729] changes: 945
+
+Variable u[730] changes: 927
+
+Variable u[731] changes: 932
+
+Variable u[732] changes: 927
+
+Variable u[733] changes: 923
+
+Variable u[734] changes: 931
+
+Variable u[735] changes: 923
+
+Variable u[736] changes: 917
+
+Variable u[737] changes: 921
+
+Variable u[738] changes: 918
+
+Variable u[739] changes: 903
+
+Variable u[740] changes: 910
+
+Variable u[741] changes: 907
+
+Variable u[742] changes: 915
+
+Variable u[743] changes: 910
+
+Variable u[744] changes: 890
+
+Variable u[745] changes: 901
+
+Variable u[746] changes: 897
+
+Variable u[747] changes: 894
+
+Variable u[748] changes: 892
+
+Variable u[749] changes: 889
+
+Variable u[750] changes: 893
+
+Variable u[751] changes: 884
+
+Variable u[752] changes: 892
+
+Variable u[753] changes: 887
+
+Variable u[754] changes: 883
+
+Variable u[755] changes: 887
+
+Variable u[756] changes: 879
+
+Variable u[757] changes: 877
+
+Variable u[758] changes: 873
+
+Variable u[759] changes: 862
+
+Variable u[760] changes: 871
+
+Variable u[761] changes: 870
+
+Variable u[762] changes: 860
+
+Variable u[763] changes: 854
+
+Variable u[764] changes: 861
+
+Variable u[765] changes: 855
+
+Variable u[766] changes: 852
+
+Variable u[767] changes: 863
+
+Variable u[768] changes: 854
+
+Variable u[769] changes: 851
+
+Variable u[770] changes: 842
+
+Variable u[771] changes: 850
+
+Variable u[772] changes: 844
+
+Variable u[773] changes: 848
+
+Variable u[774] changes: 848
+
+Variable u[775] changes: 833
+
+Variable u[776] changes: 839
+
+Variable u[777] changes: 834
+
+Variable u[778] changes: 817
+
+Variable u[779] changes: 833
+
+Variable u[780] changes: 832
+
+Variable u[781] changes: 821
+
+Variable u[782] changes: 817
+
+Variable u[783] changes: 818
+
+Variable u[784] changes: 814
+
+Variable u[785] changes: 797
+
+Variable u[786] changes: 812
+
+Variable u[787] changes: 807
+
+Variable u[788] changes: 809
+
+Variable u[789] changes: 813
+
+Variable u[790] changes: 814
+
+Variable u[791] changes: 810
+
+Variable u[792] changes: 803
+
+Variable u[793] changes: 801
+
+Variable u[794] changes: 798
+
+Variable u[795] changes: 805
+
+Variable u[796] changes: 808
+
+Variable u[797] changes: 806
+
+Variable u[798] changes: 794
+
+Variable u[799] changes: 789
+
+Variable u[800] changes: 796
+
+Variable u[801] changes: 778
+
+Variable u[802] changes: 788
+
+Variable u[803] changes: 789
+
+Variable u[804] changes: 785
+
+Variable u[805] changes: 775
+
+Variable u[806] changes: 780
+
+Variable u[807] changes: 773
+
+Variable u[808] changes: 774
+
+Variable u[809] changes: 776
+
+Variable u[810] changes: 757
+
+Variable u[811] changes: 763
+
+Variable u[812] changes: 766
+
+Variable u[813] changes: 766
+
+Variable u[814] changes: 765
+
+Variable u[815] changes: 750
+
+Variable u[816] changes: 752
+
+Variable u[817] changes: 750
+
+Variable u[818] changes: 743
+
+Variable u[819] changes: 749
+
+Variable u[820] changes: 753
+
+Variable u[821] changes: 749
+
+Variable u[822] changes: 744
+
+Variable u[823] changes: 747
+
+Variable u[824] changes: 740
+
+Variable u[825] changes: 731
+
+Variable u[826] changes: 738
+
+Variable u[827] changes: 731
+
+Variable u[828] changes: 739
+
+Variable u[829] changes: 724
+
+Variable u[830] changes: 737
+
+Variable u[831] changes: 725
+
+Variable u[832] changes: 717
+
+Variable u[833] changes: 718
+
+Variable u[834] changes: 718
+
+Variable u[835] changes: 719
+
+Variable u[836] changes: 712
+
+Variable u[837] changes: 712
+
+Variable u[838] changes: 708
+
+Variable u[839] changes: 711
+
+Variable u[840] changes: 699
+
+Variable u[841] changes: 699
+
+Variable u[842] changes: 698
+
+Variable u[843] changes: 693
+
+Variable u[844] changes: 693
+
+Variable u[845] changes: 685
+
+Variable u[846] changes: 688
+
+Variable u[847] changes: 685
+
+Variable u[848] changes: 687
+
+Variable u[849] changes: 690
+
+Variable u[850] changes: 670
+
+Variable u[851] changes: 680
+
+Variable u[852] changes: 677
+
+Variable u[853] changes: 684
+
+Variable u[854] changes: 688
+
+Variable u[855] changes: 679
+
+Variable u[856] changes: 674
+
+Variable u[857] changes: 672
+
+Variable u[858] changes: 662
+
+Variable u[859] changes: 662
+
+Variable u[860] changes: 652
+
+Variable u[861] changes: 653
+
+Variable u[862] changes: 658
+
+Variable u[863] changes: 656
+
+Variable u[864] changes: 655
+
+Variable u[865] changes: 654
+
+Variable u[866] changes: 654
+
+Variable u[867] changes: 650
+
+Variable u[868] changes: 651
+
+Variable u[869] changes: 633
+
+Variable u[870] changes: 639
+
+Variable u[871] changes: 633
+
+Variable u[872] changes: 626
+
+Variable u[873] changes: 623
+
+Variable u[874] changes: 626
+
+Variable u[875] changes: 632
+
+Variable u[876] changes: 623
+
+Variable u[877] changes: 617
+
+Variable u[878] changes: 619
+
+Variable u[879] changes: 614
+
+Variable u[880] changes: 623
+
+Variable u[881] changes: 615
+
+Variable u[882] changes: 618
+
+Variable u[883] changes: 615
+
+Variable u[884] changes: 619
+
+Variable u[885] changes: 616
+
+Variable u[886] changes: 611
+
+Variable u[887] changes: 608
+
+Variable u[888] changes: 606
+
+Variable u[889] changes: 594
+
+Variable u[890] changes: 597
+
+Variable u[891] changes: 594
+
+Variable u[892] changes: 583
+
+Variable u[893] changes: 592
+
+Variable u[894] changes: 591
+
+Variable u[895] changes: 586
+
+Variable u[896] changes: 592
+
+Variable u[897] changes: 589
+
+Variable u[898] changes: 588
+
+Variable u[899] changes: 582
+
+Variable u[900] changes: 579
+
+Variable u[901] changes: 568
+
+Variable u[902] changes: 577
+
+Variable u[903] changes: 570
+
+Variable u[904] changes: 577
+
+Variable u[905] changes: 576
+
+Variable u[906] changes: 558
+
+Variable u[907] changes: 568
+
+Variable u[908] changes: 561
+
+Variable u[909] changes: 557
+
+Variable u[910] changes: 564
+
+Variable u[911] changes: 561
+
+Variable u[912] changes: 560
+
+Variable u[913] changes: 562
+
+Variable u[914] changes: 562
+
+Variable u[915] changes: 555
+
+Variable u[916] changes: 553
+
+Variable u[917] changes: 551
+
+Variable u[918] changes: 541
+
+Variable u[919] changes: 532
+
+Variable u[920] changes: 542
+
+Variable u[921] changes: 536
+
+Variable u[922] changes: 531
+
+Variable u[923] changes: 523
+
+Variable u[924] changes: 523
+
+Variable u[925] changes: 514
+
+Variable u[926] changes: 511
+
+Variable u[927] changes: 514
+
+Variable u[928] changes: 506
+
+Variable u[929] changes: 517
+
+Variable u[930] changes: 517
+
+Variable u[931] changes: 516
+
+Variable u[932] changes: 514
+
+Variable u[933] changes: 498
+
+Variable u[934] changes: 507
+
+Variable u[935] changes: 501
+
+Variable u[936] changes: 501
+
+Variable u[937] changes: 512
+
+Variable u[938] changes: 500
+
+Variable u[939] changes: 500
+
+Variable u[940] changes: 505
+
+Variable u[941] changes: 496
+
+Variable u[942] changes: 489
+
+Variable u[943] changes: 487
+
+Variable u[944] changes: 490
+
+Variable u[945] changes: 490
+
+Variable u[946] changes: 482
+
+Variable u[947] changes: 484
+
+Variable u[948] changes: 474
+
+Variable u[949] changes: 480
+
+Variable u[950] changes: 476
+
+Variable u[951] changes: 475
+
+Variable u[952] changes: 477
+
+Variable u[953] changes: 462
+
+Variable u[954] changes: 464
+
+Variable u[955] changes: 477
+
+Variable u[956] changes: 468
+
+Variable u[957] changes: 474
+
+Variable u[958] changes: 457
+
+Variable u[959] changes: 451
+
+Variable u[960] changes: 448
+
+Variable u[961] changes: 451
+
+Variable u[962] changes: 441
+
+Variable u[963] changes: 441
+
+Variable u[964] changes: 441
+
+Variable u[965] changes: 447
+
+Variable u[966] changes: 445
+
+Variable u[967] changes: 447
+
+Variable u[968] changes: 444
+
+Variable u[969] changes: 437
+
+Variable u[970] changes: 445
+
+Variable u[971] changes: 439
+
+Variable u[972] changes: 427
+
+Variable u[973] changes: 436
+
+Variable u[974] changes: 436
+
+Variable u[975] changes: 428
+
+Variable u[976] changes: 435
+
+Variable u[977] changes: 431
+
+Variable u[978] changes: 423
+
+Variable u[979] changes: 419
+
+Variable u[980] changes: 414
+
+Variable u[981] changes: 407
+
+Variable u[982] changes: 406
+
+Variable u[983] changes: 412
+
+Variable u[984] changes: 400
+
+Variable u[985] changes: 404
+
+Variable u[986] changes: 411
+
+Variable u[987] changes: 407
+
+Variable u[988] changes: 406
+
+Variable u[989] changes: 407
+
+Variable u[990] changes: 394
+
+Variable u[991] changes: 382
+
+Variable u[992] changes: 397
+
+Variable u[993] changes: 381
+
+Variable u[994] changes: 383
+
+Variable u[995] changes: 382
+
+Variable u[996] changes: 384
+
+Variable u[997] changes: 382
+
+Variable u[998] changes: 385
+
+Variable u[999] changes: 347
 
 Variable u[1000] changes: 1
 
 
 
-Simulation transitions: 345129
+Simulation transitions: 1375873
 
 -----------------------
 
@@ -40,7 +2028,7 @@ Init time:
 
 ----------
 
-Miliseconds: 2.06135
+Miliseconds: 309.469
 
 
 
@@ -48,12 +2036,12 @@ Save data time:
 
 ---------------
 
-Miliseconds: 1.41903
+Miliseconds: 1052.11
 
 
 
 Total time:
 
 ---------------
-Miliseconds: 730.202
+Miliseconds: 4542.61
 

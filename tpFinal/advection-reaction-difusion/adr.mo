@@ -30,9 +30,9 @@ equation
 	experiment(
 		MMO_Description="",
 		MMO_Solver=QSS3,
-		MMO_Output={u[100], u[300], u[500],u[700], u[900], u[1000]},
+		MMO_Output={u[:]},
 		StartTime=0.0,
-		StopTime=5.0,
+		StopTime=10.0,
 		Tolerance={1e-3},
 		AbsTolerance={1e-3}
 	));
