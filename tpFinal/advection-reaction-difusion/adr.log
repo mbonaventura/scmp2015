@@ -1,0 +1,59 @@
+Simulation time:
+
+----------------
+
+Miliseconds: 726.722
+
+
+
+CPU time per transition: 0.00210565
+
+-----------------------
+
+
+
+Simulation output:
+
+------------------
+
+Variable u[100] changes: 989
+
+Variable u[300] changes: 559
+
+Variable u[500] changes: 225
+
+Variable u[700] changes: 1
+
+Variable u[900] changes: 1
+
+Variable u[1000] changes: 1
+
+
+
+Simulation transitions: 345129
+
+-----------------------
+
+
+
+Init time:
+
+----------
+
+Miliseconds: 2.06135
+
+
+
+Save data time:
+
+---------------
+
+Miliseconds: 1.41903
+
+
+
+Total time:
+
+---------------
+Miliseconds: 730.202
+

@@ -1,22 +1,29 @@
-model adv_dif_reac
+model adr
 	constant Integer N=1000;
 	parameter Real a=1;
 	parameter Real d=1e-4;
 	parameter Real r=10;
 	parameter Real L=10;
 	parameter Real dx=L/N;
-	Real u[N];
+	Real u[N]; 
 initial algorithm
+	// start the grid in 0
+	for i in 1:N loop
+		u[i]:=0;
+	end for;
+
+	// boundary 
+      u[1] := 1;
+      u[N] :=0;
+
+	// initial concentration u=1 for t=0, x<2
 	for i in 1:0.2*N loop
 		u[i]:=1;
-		end for;
-		equation
-		der(u[1])=-a*(u[1]-1)/dx+d*(u[2]-2*u[1]+1)/(dx^2)+r*(u[1]^2)*(1-u[1]);
-		der(u[N])=-a*(u[N]-u[N-1])/dx+d*(u[N-1]-2*u[N]+u[N-1])/(dx^2)+r*(u[N]^2)*(1-u[N]
-		);
-		for i in 2:N-1 loop
-		der(u[i])=-a*(u[i]-u[i-1])/dx+ d*(u[i+1]-2*u[i]+u[i-1])/(dx^2)+
-		r*(u[i]^2)*(1-u[i]);
+	end for;
+
+equation
+	for i in 2:N-1 loop
+		der(u[i]) = d*(u[i+1]-2*u[i]+u[i-1])/(dx^2) + r*(u[i]^2)*(1-u[i]) - a*(u[i]-u[i-1])/dx ;
 	end for;
 	annotation(
 
@@ -29,4 +36,4 @@ initial algorithm
 		Tolerance={1e-3},
 		AbsTolerance={1e-3}
 	));
-end adv_dif_reac;
+end adr;
