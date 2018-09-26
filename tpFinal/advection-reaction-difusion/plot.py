@@ -1,7 +1,11 @@
 import numpy as np
 import math
+
+import matplotlib
+#matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+
 import glob, os
 import sys
 import re
@@ -80,6 +84,7 @@ class plotter:
         time = (frame * self.interval) / 1000.0 # in s
         print "plotting frame #%d for time %f" % (frame, time)
         
+        self.ax.set_title("\nt=%f" % time, size=16)
         y = self.valuesForTime(time)
         # update each bar
         for i, b in enumerate(self.bar_plot):
@@ -87,18 +92,31 @@ class plotter:
 
 
     def plot(self):
-	    fig, ax = plt.subplots()
+	    #fig, self.ax = plt.subplots(figsize=(40,15))
+	    fig, self.ax = plt.subplots()
+	    fig.suptitle("Adveccion-Difusion-Reaccion model\n", fontsize=20)
 	
 	    rng = range(0, len(self.data))
 	    
-        # first plot for t=0    
-	    self.bar_plot = plt.bar(rng, self.valuesForTime(0))
-	    plt.xlim(rng[0], rng[-1])
+        # first plot for t=0
+	    t=0
+	    self.bar_plot = plt.bar(rng, self.valuesForTime(t))
 	    
+	    plt.xlim(rng[0], rng[-1])
+	    self.ax.set_title("\nt=%f"%t, size=16)	    
+	    plt.xlabel("variable espacial: x", fontsize=16)
+	    plt.ylabel("estado: u(x, t)", fontsize=16)
+
+
+	    self.animate(95)	    
+	    plt.show()
 	    print "starting animation"
 	    anim = animation.FuncAnimation(fig, self.animate,repeat=False,blit=False, frames=self.total_frames, interval=self.interval)
-	
-    	#anim.save('mymovie.mp4',writer=animation.FFMpegWriter(fps=10))
+	    
+	    # Set up formatting for the movie files
+	    #Writer = animation.writers['avconv']
+	    #writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
+	    #anim.save('adr.mp4', writer=writer)
 	    
 	    plt.show()
 
