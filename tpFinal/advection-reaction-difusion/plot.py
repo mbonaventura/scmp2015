@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 import matplotlib
-#matplotlib.use("Agg")
+#matplotlib.use("Agg") # to save animation
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
@@ -107,16 +107,16 @@ class plotter:
 	    plt.xlabel("variable espacial: x", fontsize=16)
 	    plt.ylabel("estado: u(x, t)", fontsize=16)
 
+	    # self.animate(80)
+	    # plt.show()
 
-	    self.animate(95)	    
-	    plt.show()
 	    print "starting animation"
 	    anim = animation.FuncAnimation(fig, self.animate,repeat=False,blit=False, frames=self.total_frames, interval=self.interval)
 	    
 	    # Set up formatting for the movie files
-	    #Writer = animation.writers['avconv']
-	    #writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
-	    #anim.save('adr.mp4', writer=writer)
+	    # Writer = animation.writers['avconv']
+	    # writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
+	    # anim.save('adr.mp4', writer=writer)
 	    
 	    plt.show()
 
