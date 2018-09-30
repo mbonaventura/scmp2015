@@ -18,7 +18,7 @@ initial algorithm
       u[N] :=0;
 
 	// initial concentration u=1 for t=0, x<2
-	for i in 1:INIT_CONC loop
+	for i in 1:5 loop
 		u[i]:=1;
 	end for;
 
@@ -34,8 +34,8 @@ equation
 
 	experiment(
 		MMO_Description="",
-		MMO_Solver=LIQSS,
-		MMO_Output={u[500]},
+		MMO_Solver=DOPRI,
+		MMO_Output={u[1]},
 		StartTime=0.0,
 		StopTime=20.0,
 		Tolerance={1e-3},

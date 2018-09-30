@@ -1,8 +1,10 @@
+#!/usr/bin/python
+
 import numpy as np
 import math
 
 import matplotlib
-#matplotlib.use("Agg") # to save animation
+# matplotlib.use("Agg") # to save animation as video
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
@@ -25,6 +27,10 @@ class TimeSerie:
 	def value_at(self, time):
 	    if len(self.values) == 0:
 	        return None
+	    if len(self.values) == 1 and self.times[0] <= time:
+	        return self.values[0]
+	    if self.times[-1] <= time:
+	        return self.values[-1]
 	        
 	    for idx in range(0, len(self.times)):
 	        if self.times[idx] == time:
@@ -93,32 +99,33 @@ class plotter:
 
     def plot(self):
 	    #fig, self.ax = plt.subplots(figsize=(40,15))
-	    fig, self.ax = plt.subplots()
-	    fig.suptitle("Adveccion-Difusion-Reaccion model\n", fontsize=20)
-	
-	    rng = range(0, len(self.data))
-	    
-        # first plot for t=0
-	    t=0
-	    self.bar_plot = plt.bar(rng, self.valuesForTime(t))
-	    
-	    plt.xlim(rng[0], rng[-1])
-	    self.ax.set_title("\nt=%f"%t, size=16)	    
-	    plt.xlabel("variable espacial: x", fontsize=16)
-	    plt.ylabel("estado: u(x, t)", fontsize=16)
+		fig, self.ax = plt.subplots()
+		fig.suptitle("Adveccion-Difusion-Reaccion model\n", fontsize=20)
+			
+		rng = range(0, len(self.data))
+		
+		# first plot for t=0
+		t=0
+		self.bar_plot = plt.bar(rng, self.valuesForTime(t), linewidth = 0, align='edge', width=1)
+		
+		plt.xlim(rng[0], rng[-1])
+		plt.ylim(-0.1, 1.1)
+		self.ax.set_title("\nt=%f"%t, size=16)	    
+		plt.xlabel("variable espacial: x", fontsize=16)
+		plt.ylabel("estado: u(x, t)", fontsize=16)
 
 	    # self.animate(80)
-	    # plt.show()
+	    #plt.show()
 
-	    print "starting animation"
-	    anim = animation.FuncAnimation(fig, self.animate,repeat=False,blit=False, frames=self.total_frames, interval=self.interval)
-	    
-	    # Set up formatting for the movie files
-	    # Writer = animation.writers['avconv']
-	    # writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
-	    # anim.save('adr.mp4', writer=writer)
-	    
-	    plt.show()
+		print "starting animation"
+		anim = animation.FuncAnimation(fig, self.animate,repeat=False,blit=False, frames=self.total_frames, interval=self.interval)
+		
+		# Set up formatting for the movie files
+		# Writer = animation.writers['avconv']
+		# writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
+		# anim.save('adr.mp4', writer=writer)
+		
+		plt.show()
 
 if __name__ == '__main__':
     resultsPath = sys.argv[1]
