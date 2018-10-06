@@ -32,6 +32,9 @@ def plot(data):
 	
 	ax.legend(loc="upper left")
 
+	# in case 2:
+	plt.ylim(0, pow(10,4))
+
 	plt.show()
 	
 
@@ -54,20 +57,20 @@ def perf_case1():
 # simulation times for the case2 of d=0.5 r=0.1
 def perf_case2():
 	title = "Caso2: d=0.5; r=0.1"
-	N =          [100	, 200	, 500	, 1000	,2000	,5000	,10000]
+	N =          [100	, 200	, 500	, 1000	,2000		,5000	,10000]
 	perf = {
-		"QSS3":  [],
-		"LIQSS": [],
-		"LIQSS2":[],
-		"LIQSS3":[],
-		"DASSL": [],
-		"DOPRI": [],				
+		"QSS3":  [0.279	,2.077	,32.442	,259.768,2140.076	,np.NaN	, np.NaN],
+		"LIQSS": [0.01	,0.03	,0.293	,2.978	,25.097		,456.884, 4248.34],
+		"LIQSS2":[0.027	,0.214	,3.327	,29.364	,250.594	,4300	, np.NaN],
+		"LIQSS3":[0.2	,1.586	,22.83	,208.992,1688.529	,26545.789, np.NaN],
+		"DASSL": [0.005	,0.015	,0.098	,0.52	,1.666		,12.03	, 53.443],
+		"DOPRI": [0.007	,0.042	,0.621	,5.025	,39.001		,427.02	, 995.482],				
 	}
 
 	return (N, perf, title)
 
 
 if __name__ == '__main__':
-    plot(perf_case1())
-    # plot(perf_case2())
+    # plot(perf_case1())
+    plot(perf_case2())
 
